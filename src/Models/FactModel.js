@@ -1,7 +1,7 @@
 const mongoose =require("mongoose")
 
 const factSchema=new mongoose.Schema({
-  fact:{type: String , required:true},
+  citation:{type: String , required:true},
   created_at:{type:Date , default:Date.now()},
 
   /* one book to many articles so id of the one in the many  */
